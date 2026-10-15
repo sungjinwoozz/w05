@@ -70,7 +70,7 @@ export default function Todos() {
                   size="xs"
                   iconOnly
                   aria-label="Add todo"
-                  className="!size-6 !min-h-0 !rounded !p-0 text-lg"
+                  className="size-6 min-h-0 rounded p-0 text-lg"
                 >
                   +
                 </Button>
@@ -84,9 +84,9 @@ export default function Todos() {
               <TableCell>
                 <Button
                   size="xs"
-                  className="!min-h-0 !rounded !bg-yellow-400 !px-2 !py-1 !text-[11px] !text-gray-900"
+                  className="min-h-0 rounded bg-yellow-400 px-2 py-1 text-[11px] text-gray-900"
                 >
-                  Waiting <ClockThree className="!size-3.5" />
+                  Waiting <ClockThree className="size-3.5" />
                 </Button>
               </TableCell>
               <TableCell className="text-center">
@@ -95,9 +95,9 @@ export default function Todos() {
                   size="xs"
                   iconOnly
                   aria-label="Delete todo"
-                  className="!size-7 !min-h-0 !rounded !p-0"
+                  className="size-7 min-h-0 rounded p-0"
                 >
-                  <Trash1 className="!size-3.5" />
+                  <Trash1 className="size-3.5" />
                 </Button>
               </TableCell>
             </TableRow>
@@ -108,9 +108,9 @@ export default function Todos() {
                 <Button
                   variant="success"
                   size="xs"
-                  className="!min-h-0 !rounded !px-2 !py-1 !text-[11px]"
+                  className="min-h-0 rounded px-2 py-1 text-[11px]"
                 >
-                  Done <Check className="!size-3.5" />
+                  Done <Check className="size-3.5" />
                 </Button>
               </TableCell>
               <TableCell className="text-center">
@@ -119,9 +119,9 @@ export default function Todos() {
                   size="xs"
                   iconOnly
                   aria-label="Delete todo"
-                  className="!size-7 !min-h-0 !rounded !p-0"
+                  className="size-7 min-h-0 rounded p-0"
                 >
-                  <Trash1 className="!size-3.5" />
+                  <Trash1 className="size-3.5" />
                 </Button>
               </TableCell>
             </TableRow>
